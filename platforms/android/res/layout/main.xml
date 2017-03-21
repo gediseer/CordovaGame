@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <WebView
+        android:id="@+id/wv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+     />
+    <Button
+        android:id="@+id/flapBird"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:onClick="flapBird"
+        android:text="flapBird" />
+    <Button
+        android:id="@+id/happyFishing"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:onClick="happyFishing"
+        android:text="快乐钓鱼" />
+
+    <Button
+        android:id="@+id/russiaCube"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:onClick="russiaCube"
+        android:text="俄罗斯方块" />
+
+    <Button
+        android:id="@+id/tableBall"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:onClick="tableBall"
+        android:text="tableBall" />
+
+    <Button
+        android:id="@+id/sgrz"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:onClick="sgrz"
+        android:text="水果忍者（测试）" />
+
+    <Button
+        android:id="@+id/two"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:onClick="two"
+        android:text="2048" />
+    <Button
+        android:id="@+id/wuziqi"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:onClick="wuziqi"
+        android:text="wuziqi" />
+</LinearLayout>

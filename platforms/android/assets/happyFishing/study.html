@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <script src="./script/plugin/jquery-3.1.1.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#b01").click(function () {
+                var htmlobj = $.ajax({url: "./a.", async: false})
+
+                console.log(htmlobj.responseText);
+            })
+        })
+    </script>
+</head>
+
+<body>
+<div id="mydiv">
+    <h2>change the txt by ajax</h2>
+
+</div>
+<button id="b01" type="button">click me</button>
+
+
+<button>开始动画</button>
+<p>默认情况下，所有 HTML 元素的位置都是静态的，并且无法移动。如需对位置进行操作，记得首先把元素的 CSS position 属性设置为 relative、fixed 或 absolute。</p>
+<div style="background:#98bf21;height:100px;width:100px;position:absolute;">
+</div>
+<br>
+<div style="background: #00ffff">
+    <button type="button">隐藏</button>
+    <p>联系人：张先生<br/>
+        北三环中路 100 号<br/>
+        北京</p>
+</div>
+
+</body>
+</html>

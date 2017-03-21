@@ -1,0 +1,28 @@
+<html>
+<head>
+    <script type="text/javascript" charset="utf-8" src="phonegap.js"></script>
+    <script>
+    function playAudio(src) {
+
+   src = "file:///android_asset/www/sound/boom.mp3";// + src; //go to sound folder always
+
+    console.log("src==="+src);
+    var mediaRes = new Media(src,null,null);
+
+        mediaRes.play(); // the actual playing
+}
+
+    </script>
+
+
+</head>
+<body>
+
+<a href="#" class="btn large" onclick="playAudio('boom.mp3');">Play
+    Audio</a>
+
+
+</body>
+
+
+</html>>
